@@ -15,6 +15,7 @@ const me = {
   'shoeCount': 4,
   'favThreeFoods': ['Pizza', 'Tacos','Mac n Cheese']
   // TODO - add properties here
+  // Added a new object 'me' with properties
 };
 console.log('A little about me:', me);
 
@@ -25,8 +26,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 const fullName = me[firstName] + me.lastName;
-
+// Creating fullName
 console.log(fullName);
+// Logging new variable fullName
 
 
 
@@ -43,6 +45,12 @@ console.log(fullName);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log('Current shoe count is:', me.shoeCount);
+// Logging current shoe count
+me.shoeCount = 5;
+// Changing shoe count
+console.log('New shoe count is:', me.shoeCount);
+//New shoe count logged
 
 
 /* 5. Add a new property to an existing object.

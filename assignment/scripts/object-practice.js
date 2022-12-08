@@ -59,3 +59,7 @@ console.log('New shoe count is:', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Blue';
+// Addind object favoriteColor with a property of 'Blue'
+console.log(me.favoriteColor);
+// Logging new favorite color

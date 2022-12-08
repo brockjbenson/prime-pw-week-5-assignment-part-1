@@ -25,7 +25,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-const fullName = me[firstName] + me.lastName;
+const fullName = me.firstName + ' ' + me.lastName;
 // Creating fullName
 console.log(fullName);
 // Logging new variable fullName
@@ -36,9 +36,9 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log(me[0].favThreeFoods[0]);
+console.log(me.favThreeFoods[0]);
 // Logging the first item in favThreeFoods
-console.log(me[0].favThreeFoods[2]);
+console.log(me.favThreeFoods[2]);
 // Logging the last item in favThreeFoods
 
 
@@ -51,7 +51,7 @@ console.log(me[0].favThreeFoods[2]);
 */
 console.log('Current shoe count is:', me.shoeCount);
 // Logging current shoe count
-me.shoeCount = 5;
+me.shoeCount += 1;
 // Changing shoe count
 console.log('New shoe count is:', me.shoeCount);
 //New shoe count logged
@@ -67,3 +67,5 @@ me.favoriteColor = 'Blue';
 // Addind object favoriteColor with a property of 'Blue'
 console.log(me.favoriteColor);
 // Logging new favorite color
+console.log(me);
+// Logging updated object
